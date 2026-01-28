@@ -1,0 +1,1 @@
+cmd_/mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/modules.order := {   echo /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/rpmsg_client.ko; :; } | awk '!x[$$0]++' - > /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/modules.order

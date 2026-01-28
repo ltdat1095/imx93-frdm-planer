@@ -1,0 +1,2 @@
+/mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/rpmsg_client.o
+

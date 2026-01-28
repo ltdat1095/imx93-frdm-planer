@@ -1,0 +1,62 @@
+[submodule "sources/meta-ros"]
+	path = sources/meta-ros
+	url = https://github.com/ros/meta-ros.git
+[submodule "sources/base"]
+	path = sources/base
+	url = https://github.com/Freescale/fsl-community-bsp-base
+[submodule "sources/meta-arm"]
+	path = sources/meta-arm
+	url = https://git.yoctoproject.org/meta-arm
+[submodule "sources/meta-browser"]
+	path = sources/meta-browser
+	url = https://github.com/OSSystems/meta-browser
+[submodule "sources/meta-clang"]
+	path = sources/meta-clang
+	url = https://github.com/kraj/meta-clang
+[submodule "sources/meta-freescale"]
+	path = sources/meta-freescale
+	url = https://github.com/Freescale/meta-freescale
+[submodule "sources/meta-freescale-3rdparty"]
+	path = sources/meta-freescale-3rdparty
+	url = https://github.com/Freescale/meta-freescale-3rdparty
+[submodule "sources/meta-freescale-distro"]
+	path = sources/meta-freescale-distro
+	url = https://github.com/Freescale/meta-freescale-distro
+[submodule "sources/meta-imx"]
+	path = sources/meta-imx
+	url = https://github.com/nxp-imx/meta-imx
+[submodule "sources/meta-imx-frdm"]
+	path = sources/meta-imx-frdm
+	url = https://github.com/nxp-imx-support/meta-imx-frdm.git
+[submodule "sources/meta-nxp-connectivity"]
+	path = sources/meta-nxp-connectivity
+	url = https://github.com/nxp-imx/meta-nxp-connectivity
+[submodule "sources/meta-nxp-demo-experience"]
+	path = sources/meta-nxp-demo-experience
+	url = https://github.com/nxp-imx-support/meta-nxp-demo-experience
+[submodule "sources/meta-openembedded"]
+	path = sources/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+[submodule "sources/meta-qt6"]
+	path = sources/meta-qt6
+	url = https://github.com/YoeDistro/meta-qt6
+[submodule "sources/meta-security"]
+	path = sources/meta-security
+	url = https://git.yoctoproject.org/meta-security
+[submodule "sources/meta-timesys"]
+	path = sources/meta-timesys
+	url = https://github.com/TimesysGit/meta-timesys
+[submodule "sources/meta-virtualization"]
+	path = sources/meta-virtualization
+	url = https://git.yoctoproject.org/meta-virtualization
+[submodule "sources/poky"]
+	path = sources/poky
+	url = https://git.yoctoproject.org/poky
+[submodule "sources/meta-mender"]
+	path = sources/meta-mender
+	url = git@github.com:mendersoftware/meta-mender.git
+	branch = scarthgap
+[submodule "sources/meta-mender-community"]
+	path = sources/meta-mender-community
+	url = git@github.com:mendersoftware/meta-mender-community.git
+	branch = scarthgap

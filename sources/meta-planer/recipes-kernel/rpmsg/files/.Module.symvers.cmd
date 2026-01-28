@@ -1,0 +1,1 @@
+cmd_/mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/Module.symvers := sed 's/\.ko$$/\.o/' /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/modules.order | scripts/mod/modpost -m -a  -o /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,16 @@
+# Yocto build output
+frdm-imx93/
+build*/
+tmp*/
+sstate-cache/
+downloads/
+
+# SDKs
+*.sh
+
+# Editor junk
+*.swp
+*~
+
+.repo
+downloads

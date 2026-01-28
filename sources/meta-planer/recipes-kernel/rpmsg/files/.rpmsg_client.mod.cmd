@@ -1,0 +1,1 @@
+cmd_/mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/rpmsg_client.mod := { echo  /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/rpmsg_client.o;  echo; } > /mnt/hexagon-datlt/imx-planer/sources/meta-planer/recipes-kernel/rpmsg/files/rpmsg_client.mod
