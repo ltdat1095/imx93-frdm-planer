@@ -1,0 +1,17 @@
+# Yocto shared downloads
+/downloads/
+
+# Yocto build output
+/frdm-imx93/bitbake-cookerdaemon.log
+/frdm-imx93/cache/
+/frdm-imx93/sstate-cache/
+/frdm-imx93/tmp/
+
+# SDKs
+*.sh
+
+# Editor junk
+*.swp
+*~
+
+.repo
