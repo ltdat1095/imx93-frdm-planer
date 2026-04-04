@@ -1,0 +1,15 @@
+diff --git a/include/config_mender.h b/include/config_mender.h
+index 3377ab0a1b..6b96f65d79 100644
+--- a/include/config_mender.h
++++ b/include/config_mender.h
+@@ -24,8 +24,8 @@
+ 
+ #include <config_mender_defines.h>
+ 
+-#ifdef CONFIG_ENV_IS_NOWHERE
+-# error A CONFIG_ENV_IS_IN_<storage-type> define is required for Mender to work. For standard Mender setups this should be CONFIG_ENV_IS_IN_MMC for HD/SSD/MMC/SD storage setup, and CONFIG_ENV_IS_IN_UBI for Flash/UBI storage.
++#if !defined(CONFIG_ENV_IS_IN_MMC) && !defined(CONFIG_ENV_IS_IN_UBI)
++# error A CONFIG_ENV_IS_IN_<storage-type> define is required for Mender to work. For standard Mender setups this should be CONFIG_ENV_IS_IN_MMC for HD/SSD/MMC/SD storage setup, and CONFIG_ENV_IS_IN_UBI for Flash/UBI storage.
+ #endif
+ 
+ #ifndef CONFIG_BOOTCOUNT_LIMIT
