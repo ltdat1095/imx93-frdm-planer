@@ -19,6 +19,7 @@ IMAGE_INSTALL:append = " \
 # --- Protocol ---
 IMAGE_INSTALL:append = " \
     packagegroup-ros-debs \
+    wifi-autoconnect \
 "
 
 # --- DEBUG TOOL ---

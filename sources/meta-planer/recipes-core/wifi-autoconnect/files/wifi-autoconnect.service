@@ -1,0 +1,12 @@
+[Unit]
+Description=Auto connect Wi-Fi on boot
+After=network-pre.target
+Wants=network-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/wifi-autoconnect.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

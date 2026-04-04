@@ -21,6 +21,19 @@ IMAGE_INSTALL:append = " \
     packagegroup-ros-debs \
 "
 
+# --- Applications ---
+IMAGE_INSTALL:append = " \
+    imx93-gunbot-firmware \
+    kernel-module-nxp-wlan \
+    nxp-wlan-sdk \
+    firmware-nxp-wifi-nxpiw612-sdio \
+    wifi-autoconnect \
+    gstreamer1.0-plugins-ugly \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-libav \
+    gstreamer1.0 \
+"
+
 # --- DEBUG TOOL ---
 IMAGE_INSTALL:append = " packagegroup-core-buildessential dtc"
 IMAGE_INSTALL:append = " kernel-devsrc"
