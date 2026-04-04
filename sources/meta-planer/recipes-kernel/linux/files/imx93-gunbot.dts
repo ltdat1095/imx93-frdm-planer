@@ -1,0 +1,17 @@
+/dts-v1/;
+
+#include "imx93-11x11-frdm.dts"
+
+/ {
+	model = "NXP i.MX93 11X11 FRDM board (M33 firmware)";
+	compatible = "fsl,imx93-11x11-frdm", "fsl,imx93";
+};
+
+&cm33 {
+	firmware-name = "imx93-m33-fw.elf";
+	status = "okay";
+};
+
+&lpuart2 {
+	status = "disabled";
+};
