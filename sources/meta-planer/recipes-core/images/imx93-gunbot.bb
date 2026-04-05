@@ -28,6 +28,7 @@ IMAGE_INSTALL:append = " \
     nxp-wlan-sdk \
     firmware-nxp-wifi-nxpiw612-sdio \
     wifi-autoconnect \
+    gstreamer1.0-plugins-good \
     gstreamer1.0-plugins-ugly \
     gstreamer1.0-plugins-base \
     gstreamer1.0-libav \

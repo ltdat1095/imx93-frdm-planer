@@ -1,0 +1,22 @@
+From 36a0be4de15b4823b932725a6cd03eba324a575c Mon Sep 17 00:00:00 2001
+From: ltdat1095 <ltdat1095@gmail.com>
+Date: Sun, 5 Apr 2026 13:58:13 +0700
+Subject: [PATCH] Patch ATF for M33 firmware
+
+---
+ plat/imx/imx93/trdc_config.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/plat/imx/imx93/trdc_config.h b/plat/imx/imx93/trdc_config.h
+index 6c8b8f8fa..afe1f91f3 100644
+--- a/plat/imx/imx93/trdc_config.h
++++ b/plat/imx/imx93/trdc_config.h
+@@ -325,7 +325,7 @@ struct trdc_glbac_config trdc_n_mrc_glbac[] = {
+ struct trdc_mrc_config trdc_n_mrc[] = {
+ 	{ 0, 0, 0, 0x80000000, 0x80000000, 0, false }, /* MRC0 DRAM for S400 DID0 */
+ 	{ 0, 1, 0, 0x80000000, 0x80000000, 0, false }, /* MRC0 DRAM for MTR DID1 */
+-	{ 0, 2, 0, 0x80000000, 0x80000000, 0, true }, /* MRC0 DRAM for M33 DID2 */
++	{ 0, 2, 0, 0x80000000, 0x80000000, 1, true }, /* MRC0 DRAM for M33 DID2 */
+ 	{ 0, 8, 0, 0x80000000, 0x80000000, 1, false }, /* MRC0 DRAM for Coresight, Testport DID8 */
+ 	{ 0, 9, 0, 0x80000000, 0x80000000, 1, false }, /* MRC0 DRAM for DAP DID9 */
+ 

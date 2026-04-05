@@ -8,7 +8,6 @@
 };
 
 &cm33 {
-	firmware-name = "imx93-m33-fw.elf";
 	status = "okay";
 };
 

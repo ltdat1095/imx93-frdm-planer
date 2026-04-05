@@ -1,0 +1,22 @@
+From 4024aca9ad6826506ed10edc44aa3ae217e2135a Mon Sep 17 00:00:00 2001
+From: ltdat1095 <ltdat1095@gmail.com>
+Date: Sun, 5 Apr 2026 15:35:54 +0700
+Subject: [PATCH] Enable M33
+
+---
+ plat/imx/imx93/trdc_config.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/plat/imx/imx93/trdc_config.h b/plat/imx/imx93/trdc_config.h
+index afe1f91f3..edbc6f1c2 100644
+--- a/plat/imx/imx93/trdc_config.h
++++ b/plat/imx/imx93/trdc_config.h
+@@ -302,7 +302,7 @@ struct trdc_mbc_config trdc_n_mbc[] = {
+ };
+ 
+ struct trdc_glbac_config trdc_n_mrc_glbac[] = {
+-	{ 0, 0, SP(RW)  | SU(RW)  | NP(RW)  | NU(RW)  },
++	{ 0, 0, SP(RWX)  | SU(RW)  | NP(RW)  | NU(RW)  },
+ 	{ 0, 1, SP(RWX) | SU(RWX) | NP(RWX) | NU(RWX) },
+ };
+ 

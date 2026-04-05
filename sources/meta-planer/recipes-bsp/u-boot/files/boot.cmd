@@ -1,4 +1,4 @@
-setenv bootargs 'console=${console},${baudrate} root=${mender_kernel_root} rootwait rw'
+setenv bootargs 'console=${console},${baudrate} root=${mender_kernel_root} rootwait rw clk_ignore_unused'
 run mender_setup
 mmc dev ${mender_uboot_dev}
 load ${mender_uboot_root} ${loadaddr} /boot/${image}
